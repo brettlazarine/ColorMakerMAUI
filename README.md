@@ -7,6 +7,6 @@ These sliders receive their power from the codebehind, enabling them to combine 
 Below the sliders is a random button, that generates a random HEX color, and then an image that, when clicked, copies the HEX value to the user's clipboard.
 
 The codebehind is managed by way of a few methods:
-- SetColor() assigns the HEX value to the lblHex label to display the value for the user, and changes the container and btnRandom background colors to the selected color
-- btnRandom_Clicked() invokes the Random class to create 3 random RGB values, and then assigns those values to the sliders
-- ImageButton_Clicked() puts the CommunityToolKit.Maui Nuget package to use, calling Toast.Make() from CommunityToolkit.Maui.Alerts in order to copy the HEX value by clicking the image next to the HEX value text
+- *SetColor()* assigns the HEX value to the *lblHex* label to display the value for the user, and changes the container and *btnRandom* background colors to the selected color
+- *btnRandom_Clicked()* invokes the Random class to create 3 random RGB values, and then assigns those values to the sliders
+- *ImageButton_Clicked()* puts the CommunityToolKit.Maui Nuget package to use, calling *Toast.Make()* from CommunityToolkit.Maui.Alerts in order to copy the HEX value by clicking the image next to the HEX value text
